@@ -51,6 +51,6 @@ class Student extends Person {
 $student = new Student("Alice", 18, "85");
 $student->introduce();
 $gradePercentage = $student->calculate_grade_percentage();
-echo "My grade percentage is {$gradePercentage}\n";
+echo "My grade percentage is {$gradePercentage}";
 
 ?>
