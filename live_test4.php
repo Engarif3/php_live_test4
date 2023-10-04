@@ -13,7 +13,7 @@ class Person {
     }
 
     public function introduce() {
-        echo "My name is {$this->name} and I am {$this->age} years old.\n";
+        echo "My name is {$this->name} and I am {$this->age} years old.";
     }
 }
 
@@ -37,7 +37,7 @@ class Student extends Person {
         parent::__construct($name, $age);
         $this->mark = $mark;
     }
-    
+
     public function introduce() {
         echo "My name is {$this->name}, I am {$this->age} years old.<br>";
     }
