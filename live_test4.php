@@ -43,7 +43,8 @@ class Student extends Person {
     }
 
     public function calculate_grade_percentage() {
-        return "{$this->mark}%";
+        $gradePercentage = number_format($this->mark / 100 * 100, 0);
+        return "{$gradePercentage}%";
     }
 }
 
